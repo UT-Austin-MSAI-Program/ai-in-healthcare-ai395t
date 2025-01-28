@@ -1,0 +1,39 @@
+Collecting nbformat
+  Obtaining dependency information for nbformat from https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl.metadata
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting fastjsonschema>=2.15 (from nbformat)
+  Obtaining dependency information for fastjsonschema>=2.15 from https://files.pythonhosted.org/packages/90/2b/0817a2b257fe88725c25589d89aec060581aabf668707a8d03b2e9e0cb2a/fastjsonschema-2.21.1-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.21.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting jsonschema>=2.6 (from nbformat)
+  Obtaining dependency information for jsonschema>=2.6 from https://files.pythonhosted.org/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl.metadata
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in c:\projects\ai-in-healthcare-ai395t\.venv\lib\site-packages (from nbformat) (5.7.2)
+Requirement already satisfied: traitlets>=5.1 in c:\projects\ai-in-healthcare-ai395t\.venv\lib\site-packages (from nbformat) (5.14.3)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for attrs>=22.2.0 from https://files.pythonhosted.org/packages/fc/30/d4986a882011f9df997a55e6becd864812ccfcd821d64aac8570ee39f719/attrs-25.1.0-py3-none-any.whl.metadata
+  Downloading attrs-25.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for jsonschema-specifications>=2023.03.6 from https://files.pythonhosted.org/packages/d1/0f/8910b19ac0670a0f80ce1008e5e751c4a57e14d2c4c13a482aa6079fa9d6/jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata
+  Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for referencing>=0.28.4 from https://files.pythonhosted.org/packages/c1/b1/3baf80dc6d2b7bc27a95a67752d0208e410351e3feb4eb78de5f77454d8d/referencing-0.36.2-py3-none-any.whl.metadata
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat)
+  Obtaining dependency information for rpds-py>=0.7.1 from https://files.pythonhosted.org/packages/b8/1b/c29b570bc5db8237553002788dc734d6bd71443a2ceac2a58202ec06ef12/rpds_py-0.22.3-cp311-cp311-win_amd64.whl.metadata
+  Downloading rpds_py-0.22.3-cp311-cp311-win_amd64.whl.metadata (4.2 kB)
+Requirement already satisfied: platformdirs>=2.5 in c:\projects\ai-in-healthcare-ai395t\.venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.3.6)
+Requirement already satisfied: pywin32>=300 in c:\projects\ai-in-healthcare-ai395t\.venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (308)
+Requirement already satisfied: typing-extensions>=4.4.0 in c:\projects\ai-in-healthcare-ai395t\.venv\lib\site-packages (from referencing>=0.28.4->jsonschema>=2.6->nbformat) (4.12.2)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+   ---------------------------------------- 78.5/78.5 kB 1.5 MB/s eta 0:00:00
+Downloading fastjsonschema-2.21.1-py3-none-any.whl (23 kB)
+Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+   ---------------------------------------- 88.5/88.5 kB 4.9 MB/s eta 0:00:00
+Downloading attrs-25.1.0-py3-none-any.whl (63 kB)
+   ---------------------------------------- 63.2/63.2 kB ? eta 0:00:00
+Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl (18 kB)
+Downloading referencing-0.36.2-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.22.3-cp311-cp311-win_amd64.whl (231 kB)
+   ---------------------------------------- 231.8/231.8 kB 7.1 MB/s eta 0:00:00
+Installing collected packages: fastjsonschema, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema, nbformat
+Successfully installed attrs-25.1.0 fastjsonschema-2.21.1 jsonschema-4.23.0 jsonschema-specifications-2024.10.1 nbformat-5.10.4 referencing-0.36.2 rpds-py-0.22.3
