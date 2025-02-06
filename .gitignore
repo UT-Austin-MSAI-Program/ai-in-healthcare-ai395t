@@ -57,3 +57,7 @@ poetry.lock
 htmlcov/
 *.cover
 
+# MIMIC data
+mimic/
+
+
