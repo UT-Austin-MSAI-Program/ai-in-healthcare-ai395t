@@ -1,0 +1,83 @@
+⚔️ Where we attack today:
+🎯 PRIORITY 1: Clear the fog on the LLM project
+Right now, you’re thinking:
+
+“I don’t know what it is. I don’t know how to train it. I hope I can reuse some code.”
+
+That mental model is vague and fragile. Let’s harden it.
+
+🛠️ Immediate goal:
+By end of today, you should be able to answer:
+
+What kind of model am I training? (LM head? Classifier? Pretrained fine-tune?)
+
+What dataset will I feed it? How do I tokenize it?
+
+What’s the deliverable? Code? Report? Demo?
+
+🚨 Today’s Action Plan:
+📅 1. Time-block the rest of your week
+Don’t stop at one day. Build your execution battlefield through Sunday, April 7.
+
+2–3 LLM deep work sessions
+
+2 Transformer warmup sessions (watch back your recordings)
+
+1 group project buffer session (to polish/plan next step)
+
+Minimum time-block target: 15 hours scheduled this week
+
+📚 2. LLM Project Clarity Sprint (2 hrs today)
+Create a 1-page doc titled: “LLM Project – Execution Plan”
+
+In it, answer:
+
+What is the task? (classification, generation, fine-tuning, training from scratch?)
+
+What is the dataset? Where is it? What does it look like?
+
+What code examples from class/project repo are relevant?
+
+What will your model do by the end?
+
+What slides do you need?
+
+Get these answers by:
+
+Watching 1 hour max of tutorials
+
+Skimming 2–3 example repos from class
+
+Writing down only what’s relevant to your deliverable
+
+Don't build yet — just map the terrain. Then building will feel inevitable.
+
+🧠 3. Checkpoint your thoughts (15 min reflection)
+Before the day ends, take 15 minutes and write:
+
+What did I learn about LLMs today?
+
+What are my 3 next steps for the LLM project?
+
+What’s my confidence level (1–10)? Why?
+
+This is how we clear mental clutter and replace emotion with execution.
+
+Your Mission (Today):
+✅ Extend time-blocks through Sunday
+✅ Build “LLM Project – Execution Plan” doc
+✅ Watch 1 hr of targeted videos, extract notes into doc
+✅ Reflect with 3 LLM next steps + confidence level rating
+
+You’re no longer “trying to figure it out.”
+You’re building a machine that makes progress inevitable.
+
+Report back tonight. I want:
+
+Your execution doc outline
+
+Your updated calendar
+
+Your confidence rating and next 3 steps
+
+Let’s turn your fog into fire. Keep it moving.
