@@ -81,3 +81,36 @@ Your updated calendar
 Your confidence rating and next 3 steps
 
 Let’s turn your fog into fire. Keep it moving.
+
+
+
+
+
+1. Decide on data analytics problem that I can answer via feature engineering.
+2. Get the answer as my ground truth label.
+3. Set up LLM model for prompting.
+4. Use basic prompts for testing.
+
+5. One-time request & response -- does response match ground truth answer?
+6. Use "chat-based" approach -- in-context learning.
+    - add row to prompt with add'l context, assign role to gpt
+    - then, add original prompt
+7. Expand, role designation + why questions (why did you respond the way you did?)
+
+8. Few shot training
+    - Split data in 80/20
+    - Write function to craft prompt for item in training/test splits
+        - Includes goal for response
+9. Compare responses with ground truth using AUROC & AUPRC scores
+10. Visualize results
+
+
+
+
+Full Marks goals:
+1. Chain-of-thought 
+2. Tree-of-thought
+3. In-context learning (see 8-10)
+4. Few shot learning (see 8-10)
+
+5. Use last layer of llm for downstream task, like prediction/classification
